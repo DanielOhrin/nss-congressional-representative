@@ -1,0 +1,34 @@
+.pageHeader {
+    text-align: center;
+    font-size: 5em;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex: 1 1 auto;
+}
+
+#bills {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1 0 auto;
+}
+
+#bills a {
+    padding-right: 10px;
+}
+
+#representative {
+    width: 30%;
+    margin: 0.5em;
+    padding: 1em;
+}
+
+.list#repList {
+    margin-top: -50px;
+}
